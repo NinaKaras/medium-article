@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans|Rubik:400,500');
+
+/*a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #3c3c3c;
+  font-weight: lighter;
+}
+*/
+
+@media (max-width: 1600px) {
+  .container {
+  margin: 0 auto;
+  width: 700px;
+  text-align: left;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+  margin: 0 auto;
+  width: 500px;
+  text-align: left;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+  margin: 0 auto;
+  width: 300px;
+  text-align: left;
+  }
+}
+
+#banner {
+  background: rgba(255, 255, 255, .9) url('https://source.unsplash.com/random');
+  background-size: cover;
+  background-color: white;
+  padding: 120px 0;
+  margin: 0;
+  height: 100%;
+}
+
+
+#banner h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  color: white;
+  margin: 50 auto;
+}
+
+#banner p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  color: white;
+  font-weight: lighter;
+}
+
+ h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  color: #d3d3d3;
+}
+
+ p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  color: #3c3c3c;
+  font-weight: lighter;
+}
+
+body {
+  margin: 0 auto;
+}
+
+
+.btn-color {
+  background-image: linear-gradient(to bottom, rgba(255, 207, 200, 1), rgba(255, 207, 200, 1));
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #3c3c3c;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.btn-color:hover{
+  background-image: linear-gradient(to bottom, rgba(255, 128, 109, 1), rgba(255, 128, 109, 1));
+}
+
